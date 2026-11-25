@@ -341,9 +341,8 @@ h3.sub { font-family: var(--font-display); font-weight: 800; font-size: clamp(1.
   if (videos.length === 4 || videos.length === 8) gallery.classList.add("count-4");
 
   function cloud(src) {
-    // Cloudinary: entrega en mp4 optimizado (los .mov no se ven en todos los navegadores)
-    if (src.indexOf("res.cloudinary.com") === -1 || src.indexOf("/video/upload/") === -1) return src;
-    return src.replace("/video/upload/", "/video/upload/q_auto,vc_auto/").replace(/\.(mov|m4v|webm)$/i, ".mp4");
+    // Se usa el archivo original: las versiones convertidas por Cloudinary pueden llegar recortadas.
+    return src;
   }
   function cloudPoster(src) {
     if (src.indexOf("res.cloudinary.com") === -1 || src.indexOf("/video/upload/") === -1) return "";
