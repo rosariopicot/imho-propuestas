@@ -34,21 +34,21 @@ window.PROPUESTA = {
     packs: [
       {
         nombre: "Pack x 4 videos",
-        precioUnitario: "$32.000 por video",
+        precioUnitario: "$30.000 por video",
         frecuencia: "1 video por semana (4 semanas)",
-        precioTotal: "$128.000",
+        precioTotal: "$120.000",
       },
       {
         nombre: "Pack x 8 videos",
-        precioUnitario: "$28.800 por video",
+        precioUnitario: "$27.000 por video",
         frecuencia: "2 videos por semana (4 semanas)",
-        precioTotal: "$230.400",
+        precioTotal: "$216.000",
       },
       {
         nombre: "Pack x 12 videos",
-        precioUnitario: "$27.200 por video",
+        precioUnitario: "$25.500 por video",
         frecuencia: "3 videos por semana (4 semanas)",
-        precioTotal: "$326.400",
+        precioTotal: "$306.000",
       },
     ],
   },
