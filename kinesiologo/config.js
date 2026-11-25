@@ -61,12 +61,12 @@ window.PROPUESTA = {
   portfolio: {
     titulo: "Algunos de nuestros trabajos",
     videos: [
-      { src: "", poster: "" },
-      { src: "", poster: "" },
-      { src: "", poster: "" },
-      { src: "", poster: "" },
-      { src: "", poster: "" },
-      { src: "", poster: "" },
+      { src: "https://res.cloudinary.com/duhd6ldzm/video/upload/v1795579505/WhatsApp_Video_2026-11-25_at_1.04.10_AM_so1bnc.mp4", poster: "" },
+      { src: "https://res.cloudinary.com/duhd6ldzm/video/upload/v1795577910/WhatsApp_Video_2026-11-25_at_12.35.27_AM_cabpop.mp4", poster: "" },
+      { src: "https://res.cloudinary.com/duhd6ldzm/video/upload/v1795577830/WhatsApp_Video_2026-11-25_at_12.35.15_AM_whwozq.mp4", poster: "" },
+      { src: "https://res.cloudinary.com/duhd6ldzm/video/upload/v1795577811/WhatsApp_Video_2026-11-25_at_12.35.14_AM_f7dncb.mp4", poster: "" },
+      { src: "https://res.cloudinary.com/duhd6ldzm/video/upload/v1795577799/Video_4_35s_c_musica_rpwlyt.mov", poster: "" },
+      { src: "https://res.cloudinary.com/duhd6ldzm/video/upload/v1795577857/WhatsApp_Video_2026-11-25_at_12.35.18_AM_uufk9c.mp4", poster: "" },
     ],
   },
 
